@@ -1,0 +1,19 @@
+/:
+  controller: Main
+  action: index
+
+/dashboard:
+  controller: Main
+  action: dashboard
+
+/contact:
+  controller: Main
+  action: contact
+
+/login:
+  controller: Security
+  action: login
+
+/logout:
+  controller: Security
+  action: logout
